@@ -1,0 +1,65 @@
+.button{
+	-fx-background-color: white;
+	-fx-border-style: solid inside;  
+        -fx-border-width: 5;
+        -fx-border-color: white;
+        -fx-font-weight: bold;
+        -fx-text-fill: black;
+        -fx-border-radius: 5;
+        -fx-font-family: serif;
+}
+
+.text-area{
+        -fx-font-weight: bold;
+        -fx-text-fill: white;
+        -fx-font-family: serif;
+}
+
+.text-area .content {
+    -fx-background-color: black ;
+}
+
+.text-field{
+	-fx-background-color: white;
+	-fx-border-style: solid inside;  
+        -fx-border-width: 5;
+        -fx-border-color: white;
+        -fx-font-weight: bold;
+        -fx-text-fill: black;
+        -fx-border-radius: 5;
+        -fx-font-family: serif;
+}
+
+#menuItems{
+	 -fx-text-fill: red;
+	-fx-background-color: black;
+	-fx-border-style: solid inside;  
+        -fx-border-width: 5;
+        -fx-border-color: white;
+        -fx-font-weight: bold;
+        -fx-font-family: serif;
+}
+
+#menuItems:hover{
+	background-color: white;
+}
+
+#play{
+	-fx-background-color: black;
+	-fx-border-style: solid inside;  
+        -fx-border-width: 5;
+        -fx-border-color: white;
+        -fx-text-fill: white;
+        -fx-border-radius: 5;
+        -fx-font-family: "Lucida Console", Courier, monospace;
+		height: 100px;
+		width: 250px;
+		-fx-font-size: 50;
+}
+
+#tictactoe{
+	-fx-background-color: black;
+	-fx-text-fill: white;
+	-fx-font-size: 50;
+	-fx-border-radius: 0;
+}
